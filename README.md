@@ -6,7 +6,7 @@ This is a small quarkus demo project that can be used to deploy to openshift
 
     oc new-project demo-jvm
     
-    oc new-app registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift~https://github.com/tqvarnst/q-app
+    oc new-app registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift~https://github.com/praskrish/q-app
     
     oc expose svc q-app
     
